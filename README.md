@@ -1,5 +1,9 @@
 ## Object-oriented Programming (Lab Work) Template Guides
-1. Silakan anda upload file java hasil praktikum anda menggunakan NetBeans atau IDE/text editor lainnya dengan mengupload button ADD FILE
-2. Upload juga screenshot hasil latihan dan tugas anda dalam format .JPG atau .JPEG atau .PNG
-3. Setiap file java anda diharuskan untuk memiliki identitas anda dengan menggunakan komentar dengan format berikut "Created by NIM_Nama Lengkap" pada bagian paling atas setiap code anda. contoh: // Created by 1203232_Randi Proska Sandra
-4. Silakan anda edit file README.md ini dengan identitas anda juga serta berikan penjelasan terkait source code yang anda upload. Catatan: Jangan ubah nama file README.md
+
+##### Nama  : Resti Apriliyanti
+##### NIM   : 21343014
+##### Materi  : Input Dari Keyboard
+
+1. Class Scanner; data-data yang dimasukkan misalnya berupa angka, tidak perlu dilakukan konversi dari String ke integer atau tipe data lainnya. Dideklarasikan dengan Scanner BacaInput = new Scanner(System.in);
+2. Class BufferedReader; juga berfungsi untuk menerima inputan dari keyboard yaitu dengan fungsi readLine(). Dideklarasikan dengan BufferedReader DataMasuk = new BufferedReader (new InputStreamReader(System.in));
+3. Class JOptionPane; memunculkan dialog box untuk menerima dan menampilkan hasil input. Dideklarasikan dengan Nama = JOptionPane.showInputDialog("Silahkan Masukan Nama Anda"); 
